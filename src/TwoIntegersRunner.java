@@ -14,5 +14,10 @@ public class TwoIntegersRunner
 		System.out.println(arithmetic);
 		String numberSize = twoIntegers.toNumberSize();
 		System.out.println(numberSize);
+		boolean trueFalse = twoIntegers.toTrueFalse();
+		System.out.println(trueFalse);
+		boolean multiples = twoIntegers.toMultiples();
+		System.out.println(multiples);
+		
 	}
 }

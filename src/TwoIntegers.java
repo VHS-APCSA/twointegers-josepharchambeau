@@ -38,6 +38,46 @@ public class TwoIntegers
 		}
 		return numberSize;
 	}
+	public boolean toTrueFalse()
+	{
+		boolean trueFalse = true;
+		if(int1 % 2 == 0)
+		{
+			System.out.println("The first number is even");
+			trueFalse = true;
+		}
+		else
+		{
+			System.out.println("The first number is odd");
+			trueFalse = false;
+		}
+		if(int2 % 2 == 0)
+		{
+			System.out.println("The second number is even");
+			trueFalse = true;
+		}
+		else
+		{
+			System.out.println("The second number is odd");
+			trueFalse = false;
+		}
+		return trueFalse;
+	}
+	public boolean toMultiples()
+	{
+		boolean multiples = true;
+		if(int1 % int2 == 0)
+		{
+			System.out.println("The two numbers are multiples of eachother");
+			multiples = true;
+		}
+		else
+		{
+			System.out.println("The two numbers are not multiples of eachother");
+			multiples = false;
+		}
+		return multiples;
+	}
 	public String toArithmetic()
 	{
 		String arithmetic = "";
